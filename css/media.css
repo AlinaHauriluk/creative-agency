@@ -1,0 +1,524 @@
+@media (min-width: 2560px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    .project .project-item-1,
+    .project .project-item-2,
+    .project .project-item-3 {
+    justify-content: center;
+    }
+
+    .project-message,
+    .project-message-2 {
+        margin-top: -110px;
+    }
+
+    .nav ul {
+        width: 480px;
+        padding: 3%;;
+    }  
+
+    .nav ul li a {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .promo h3 {
+        font-size: 52px;
+    }
+    
+    .logotip {
+        width: 100%; 
+    }
+
+    .about {
+        padding-bottom: 60px;
+    }
+
+    .about .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+
+    .about-left h3,
+    .about-left p {
+        text-align: center;
+    }
+
+    .about-right {
+        width: 100%; 
+        align-items: center;
+        margin: 0;
+        padding-top: 80px;
+    }
+
+    .about-left a {
+        text-align: center;
+    } 
+
+    .about-right .founder {
+        flex-direction: column-reverse;
+        padding-top: 30px;
+        align-items: flex-end;
+    }
+
+    .about-right .founder .title {
+        margin-top: 0;
+    }
+
+    .about-right .founder h3,
+    .about-right .founder h4 {
+        text-align: center;
+    }
+    
+    .project .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project .border-top {
+        padding-top: 120px;
+    }
+
+    .project h3 {
+        width: 100%;
+        text-align: center;  
+        margin-bottom: 20px;  
+    }
+    
+    .project p {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .project .project-item-1,
+    .project .project-item-2,
+    .project .project-item-3 {
+        flex-direction: column-reverse; 
+        align-items: center;
+    }
+
+    .project-item-1 .title,
+    .project-item-2 .title,
+    .project-item-3 .title {
+        width: 100%;
+        padding-top: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .project-item-1 .title h3,
+    .project-item-2 .title h3,
+    .project-item-3 .title h3,
+    .project-item-1 .title p,
+    .project-item-2 .title p,
+    .project-item-3 .title p {
+        width: 100%;
+    }
+
+    .project-item-2 .title .container {
+        margin: 0 auto 0 auto;
+    }
+
+    .project-item-1 .title a,
+    .project-item-2 .title a,
+    .project-item-3 .title a {
+        margin: 30px 0 50px 0;
+    }
+
+    .project-message,
+    .project-message-2 {
+        margin-top: -80px;
+    }
+
+    .message-person {
+        align-items: center;
+    }
+
+    .product-idea {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .product-idea h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .idea-list {
+        padding-top: 60px;
+        flex-wrap: wrap;
+        justify-content: center; 
+        text-align: center;
+    }
+
+    .idea-item:first-child {
+        margin-left: 15px;
+    }
+
+    .idea-item {
+        width: calc(50% - 30px);
+        margin: 20px 15px;
+    }
+
+    .idea-item:nth-child(1) p,
+    .idea-item:nth-child(3) p {
+        margin-bottom: 40px;
+    }
+
+    .idea-item:nth-child(1),
+    .idea-item:nth-child(2) {
+        margin-bottom: 50px;
+    }
+
+    .order {
+        padding-top: 80px;
+        padding-left: 20px;
+    }
+    
+    .order h3 {
+        margin-bottom: 50px;
+        font-size: 48px;
+    }
+
+    .footer-top .wrapper {
+        justify-content: space-between;
+    }
+
+    .footer-top .phone,
+    .footer-top .adress {
+        text-align: center;
+        width: 30%;
+    }
+
+    .footer-media .wrapper {
+        flex-direction: column;
+    }
+
+    .footer-list {
+        flex-wrap: wrap;
+        border-right: 0;
+        border-bottom: #5D6544 1px solid;
+    }
+
+    .footer-item {
+        width: calc(33.3% - 30px);
+        margin: 10px 15px;  
+    }
+
+    .footer-media h3 {
+        text-align: center;
+    }
+
+    .footer-item ul li {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .footer-media-right {
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 0;
+    }  
+
+}
+
+@media (max-width: 768px) {
+
+    .promo {
+        background-position: center;
+    }
+
+    .promo h3 {
+        font-size: 54px;
+    }
+
+    .logotip .wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .logotip img {
+        padding-top: 0px;
+    }
+
+    .about-right p {
+        text-align: center;
+    }
+
+    .project-message,
+    .project-message-2 {
+        margin: -50px 0 0 0;
+        width: 100%;
+    }
+
+    .message-text,
+    .message-text-2 {
+        margin: 0 auto;   
+    }
+
+    .idea-item:nth-child(1) p,
+    .idea-item:nth-child(3) p {
+        margin-bottom: 60px;
+    }
+    
+    .order h3 {
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width: 426px) {
+    
+    .promo .wrapper {
+        width: 100%;   
+    }
+
+    .logotip {
+        height: 100%;
+    }
+
+    .logotip img {
+        width: 140px;
+    }
+
+    .about-right p {
+        font-size: 22px;
+    }
+
+    .project .background-1,
+    .project .background-2,
+    .project .background-3 {
+        width: 425px;
+        height: 340px;
+        background-size: 425px auto;  
+    }
+
+    .message-text,
+    .message-text-2 {
+        width: 300px;
+        padding-top: 25px;   
+    }
+
+    .message-person {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .message-person .title h3 {
+        margin-top: 20px;
+    }
+    
+    .idea-item {
+        width: calc(100% - 30px);
+        margin-bottom: 40px;
+    }
+
+    .idea-item p {
+        margin-bottom: 30px!important;
+    }
+
+    .order {
+        padding: 90px 0;
+        width: 90%;
+        text-align: center;
+    }
+    
+    .order h3 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .footer {
+        padding-top: 240px;
+    }
+    
+    .footer-top {
+        padding-bottom: 90px;
+    }
+
+    .footer-top .wrapper {
+        flex-direction: column;
+    }
+
+    .footer-top .phone,
+    .footer-top .adress {
+        width: 100%;
+    }
+
+    .footer-top a {
+        margin-bottom: 40px;
+    }
+
+    .footer-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-item {
+        width: calc(100% - 30px);
+    }
+
+    .footer-media h3 {
+        margin-bottom: 20px;
+    }
+
+    .footer-item ul li:last-child {
+        margin-bottom: 30px;
+    }
+
+    .footer-bot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 376px) {
+
+    .logotip {
+        width: 100%;
+    }
+
+    .logotip img {
+        width: 110px;
+    }
+
+    .project .background-1,
+    .project .background-2,
+    .project .background-3 {
+        width: 375px;
+        height: 330px;
+        background-size: 375px auto;   
+    }
+
+    .project-message,
+    .project-message-2 {
+        margin: -80px 0 0 0;
+    }
+
+    .product-idea {
+        padding-bottom: 80px;
+    }
+
+    .order {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 321px) {
+    
+    .header-logo h3 {
+        font-size: 22px;
+    }
+
+    .nav .nav-toggle {
+        margin-top: 20px;
+    }
+
+    .nav ul {
+        width: 180px;
+    }
+
+    .promo h3 {
+        font-size: 44px;
+    }
+
+    .about-left h3 {
+        font-size: 30px;
+    }
+
+    .about-right .founder {
+        flex-direction: column-reverse;   
+    }
+
+    .about-right .founder .title {
+        margin-top: 0;
+    }
+
+    .project .border-top {
+        padding-top: 100px;
+    }
+
+    .project h3 {
+        font-size: 30px; 
+    }
+
+    .project .project-item-1 {
+        padding-top: 100px;
+    }
+    
+    .project .project-item-2,
+    .project .project-item-3 {
+        padding-top: 80px;
+    }
+
+    .project .background-1,
+    .project .background-2,
+    .project .background-3 {
+        width: 320px;
+        height: 260px;
+        background-size: 320px auto;   
+    }
+    
+    .message-text p,
+    .message-text-2 p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .project-message,
+    .project-message-2 {
+        margin: -40px 0 0 0;
+    }
+
+    .product-idea {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .product-idea h3 {
+        font-size: 22px;
+    }
+
+    .idea-list {
+        padding-top: 60px;
+    }
+
+    .footer-top {
+        padding-bottom: 50px;
+    }
+
+    .footer-media {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .footer-media-right {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    .footer-media-right a {
+        font-size: 18px;
+    }
+    
+    .footer-info p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+}
